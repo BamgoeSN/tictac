@@ -12,7 +12,7 @@ fn main() {
     println!("Let's play Tic Tac Toe!");
 
     let mut my_turn = Cell::E;
-    print!("Do you want to go first, or second? (O/X) ");
+    print!("What side do you want to play at? (O/X) ");
     stdout.flush().expect("Couldn't flush output into stdout");
     let mut buf = String::new();
     while my_turn == Cell::E {
